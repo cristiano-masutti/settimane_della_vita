@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>settimane della vita</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.3/lib/p5.js"></script>
+  </head>
+  <body>
+    <header class="top-section">
+      <h1>Settimane della vita</h1>
+      <div class="birth-row">
+        <span>Data di nascita</span>
+        <div class="birth-inputs">
+          <input id="birth-day" type="number" placeholder="giorno" min="1" max="31" value="25" />
+          <input id="birth-month" type="number" placeholder="mese" min="1" max="12" value="11" />
+          <input id="birth-year" type="number" placeholder="anno" min="1900" max="2100" value="2002" />
+        </div>
+        <button id="calculate-button" type="button" class="calculate-button">calcola</button>
+      </div>
+    </header>
+    <script src="sketch.js"></script>
+  </body>
+</html>

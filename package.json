@@ -1,0 +1,24 @@
+{
+  "name": "settimane_della_vita",
+  "version": "1.0.0",
+  "description": "Open `index.html` in your web browser and start editing `sketch.js`.",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiano-masutti/settimane_della_vita.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cristiano-masutti/settimane_della_vita/issues"
+  },
+  "homepage": "https://github.com/cristiano-masutti/settimane_della_vita#readme",
+  "devDependencies": {
+    "@types/p5": "^1.7.7"
+  }
+}
